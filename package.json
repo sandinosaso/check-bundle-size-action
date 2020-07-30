@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Fake test ok\" && exit 0",
-    "build": "yarn clean && yarn lint && yarn test && yarn bundle",
+    "build": "yarn clean && yarn lint && yarn test",
     "bundle": "parcel build .github/actions/check-bundle-size-action/src/index.ts --target=node --no-source-maps",
     "clean": "rm -r -f dist",
     "clean:all": "rm -r -f dist .cache",
