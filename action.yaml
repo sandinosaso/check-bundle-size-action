@@ -1,0 +1,12 @@
+name: 'Check Bundle Size'
+description: 'Check Bundle size action for monorepos.'
+inputs:
+  github_token:
+    description: The GITHUB_TOKEN secret
+    required: true
+  command_for_building:
+    description: The command to build your project
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
