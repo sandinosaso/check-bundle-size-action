@@ -11,4 +11,4 @@ jobs:
           fetch-depth: 1
       - run: yarn install
       - run: yarn build
-      - uses: ./check-bundle-size-action
+      - uses: ./
