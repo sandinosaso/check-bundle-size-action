@@ -11,7 +11,7 @@
     "clean:all": "rm -r -f dist .cache",
     "compile": "tsc --project .",
     "lint": "tslint --project .",
-    "prepublish": "yarn clean:all && yarn lint && yarn test && yarn bundle",
+    "prepublish": "yarn clean:all && yarn lint && yarn test",
     "watch": "ava -w"
   },
   "keywords": [],
