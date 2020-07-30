@@ -20,7 +20,7 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/check-bundle-size@v1
+uses: sandinosaso/check-bundle-size@v1
 with:
   github_token: XYZ
   command_for_building: 'yarn build'
