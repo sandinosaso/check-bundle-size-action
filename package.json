@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Fake test ok\" && exit 0",
     "build": "yarn clean && yarn lint && yarn test && yarn bundle",
-    "bundle": "parcel build src/index.ts --target=node --no-source-maps",
+    "bundle": "parcel build .actions/check-bundle-size/src/index.ts --target=node --no-source-maps",
     "clean": "rm -r -f dist",
     "clean:all": "rm -r -f dist .cache",
     "compile": "tsc --project .",
